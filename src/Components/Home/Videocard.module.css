@@ -1,0 +1,41 @@
+
+.videocomp{
+    width: 100%;
+    background-color: aliceblue;
+}
+.videocomp>video{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    aspect-ratio: 1/1;
+}
+.videocomp>div{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight:700 ;
+    color: rgb(3, 58, 58);
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+.videocomp{
+    width: 100%;
+    
+}
+.videocomp>video{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+}

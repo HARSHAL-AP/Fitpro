@@ -1,0 +1,46 @@
+.inputcontener{
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(165, 144, 28);
+    border-radius: 2px;
+}
+.serchicon{
+   margin-left: -22px;
+   font-weight: 800;
+   color: rgb(126, 78, 7);
+}
+
+@media screen and (max-width: 780px) {
+    .inputcontener{
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+    input{
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgb(165, 144, 28);
+    }
+.serchicon{
+    margin-left: -22px;
+    font-weight: 800;
+    color: rgb(126, 78, 7);
+}
+
+
+
+
+
+
+
+
+
+
+
+}
